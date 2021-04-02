@@ -1,18 +1,13 @@
 ---
 title: Privileges
-description: Privileges control which features of Xbox Live a user can access at a given point in time.
+description: Controls which features of Xbox Live a user can access at a given point in time.
 kindex: Privileges
-kindex: privileges
+ms.topic: navigation
 layout: LandingPage
+ms.localizationpriority: high
 author: mikehoffms
 ms.author: v-mihof
-ms.topic: navigation
-ms.prod: gaming
-ms.technology: xboxlive
-ms.localizationpriority: medium
-ms.assetid:
-ms.date: 02/08/2019
-edited: 00/00/0000
+ms.date: 11/01/2019
 ---
 
 # Privileges
@@ -20,8 +15,8 @@ edited: 00/00/0000
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Privileges portal config](config/live-privileges-config-nav.md) | Configuring privileges for Xbox Live at Partner Center. |
 
 

@@ -1,15 +1,13 @@
 ---
 title: Multiplayer Manager concepts
 description: Conceptual articles about Multiplayer Manager.
-layout: LandingPage
 kindex: Multiplayer Manager concepts
+ms.topic: navigation
+layout: LandingPage
+ms.localizationpriority: high
 author: mikehoffms
 ms.author: v-mihof
-ms.topic: navigation
-ms.prod: gaming
-ms.technology: xboxlive
-ms.date: 12/17/2019
-ms.localizationpriority: medium
+ms.date: 11/01/2019
 ---
 
 # Multiplayer Manager concepts
@@ -17,7 +15,7 @@ ms.localizationpriority: medium
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Multiplayer Manager API overview](live-multiplayer-manager-api-overview.md) | The most important classes and methods in the Multiplayer Manager API. |
 | [Multiplayer Manager flowcharts](flowcharts/live-mm-flowcharts-nav.md) | Flowcharts of code for implementing specific Multiplayer Manager scenarios. |

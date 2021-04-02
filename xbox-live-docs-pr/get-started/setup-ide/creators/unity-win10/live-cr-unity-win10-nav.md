@@ -1,11 +1,13 @@
 ---
 title: Unity targeting Windows 10
 description: Setting up Unity targeting Windows 10 to use the Xbox Live SDK, for Creators.
+kindex: Unity targeting Windows 10
+ms.topic: navigation
 layout: LandingPage
-ms.date: 04/19/2019
-ms.topic: article
-keywords: xbox live, games
-ms.localizationpriority: medium
+ms.localizationpriority: high
+author: mlamaute
+ms.author: migreen
+ms.date: 11/01/2019
 ---
 
 # Unity targeting Windows 10
@@ -15,8 +17,8 @@ Setting up Unity targeting Windows 10 to use the Xbox Live SDK, for Creators.
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Configuring Xbox Live in Unity](live-configure-xbl-in-unity.md) | Use the Xbox Live Unity plugin to configure Xbox Live in your Unity game. |
 | [Signing into Xbox Live in Unity](signin/live-unity-signin-nav.md) | Signing into Xbox Live in Unity. |
 | [Testing a Unity game build in Visual Studio](live-test-vstudio-build.md) | Checklist for testing Unity builds in Visual Studio. |

@@ -4,11 +4,12 @@ description: Configuring title-managed Achievements at Partner Center.
 kindex: Title-managed Achievements portal config
 kindex: Achievements
 kindex: Xbox Live, Achievements
-author: v-mihof
+ms.topic: navigation
+layout: LandingPage
+ms.localizationpriority: high
+author: mikehoffms
 ms.author: v-mihof
-ms.topic: conceptual
-ms.prod: xboxlive
-ms.technology: 
+ms.date: 11/01/2019
 ---
 
 # Title-managed Achievements portal config
@@ -16,6 +17,6 @@ ms.technology:
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Configuring title-managed Achievements in Partner Center](live-achievements-tm-config.md) | Configuring Achievements in Partner Center, to deliver rewards. |

@@ -1,10 +1,14 @@
 ---
 title: Xbox Live resources, sites, and downloads
 description: Download resources for Xbox Live development, such as tools and API Reference.
-ms.date: 09/12/2017
+kindex: Xbox Live resources, sites, and downloads
+kindex: resources, Xbox Live
+kindex: websites, Xbox Live
+kindex: tools
+kindex: WinRT
 ms.topic: article
-keywords: windows 10, uwp, games, xbox, xbox live, resources, API, reference, tools, winrt
 ms.localizationpriority: medium
+ms.date: 09/12/2017
 ---
 
 # Xbox Live resources, sites, and downloads
@@ -63,7 +67,7 @@ This extension will enable the use of Connected Storage in your UWP titles throu
 There are several useful tools that you use to help you develop for Xbox Live.
 Find more information at:
 
-* [Development tools for Xbox Live](services-tools/live-tools.md)
+* [Development tools for Xbox Live](tools/live-tools.md)
 
 
 ## Xbox Live code samples
@@ -84,4 +88,4 @@ To access this information, you must have a Microsoft Account (MSA) that has bee
 
 * [XGD > Xbox One > Xbox Live](https://developer.microsoft.com/games/xbox/partner/live-home) - Jump pages for Xbox Live resources.
 * [XGD > Xbox One > White papers](https://developer.microsoft.com/games/xbox/partner/development-education-whitepapers) - The section "Xbox Live and Networking" contains about 30 white papers.
-* [XGD > XDK > Xbox Live Services](https://developer.microsoft.com/games/xbox/docs/xdk/xbox-live-services) - Additional articles about User Privileges, Player Data, Marketplace, and Cloud Compute.
+* [XGD > XDK > Xbox Live Services](https://developer.microsoft.com/games/xbox/docs/xdk/xbox-live-services) - Additional articles about User Privileges, Player Data, and Marketplace.

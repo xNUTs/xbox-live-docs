@@ -1,13 +1,15 @@
 ---
 title: Session template constants
 description: All system constants that are defined in multiplayer session templates, defining settings for a multiplayer session.
-ms.assetid: d51b2f12-1c56-4261-8692-8f73459dc462
-ms.date: 04/04/2017
+kindex: Session template constants
+kindex: multiplayer
+kindex: session template
 ms.topic: conceptual
 ms.prod: gaming
 ms.technology: xboxlive
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, multiplayer, session template
+ms.assetid: d51b2f12-1c56-4261-8692-8f73459dc462
 ms.localizationpriority: medium
+ms.date: 04/04/2017
 ---
 
 # Session template constants
@@ -33,8 +35,8 @@ sessionEmptyTimeout | The timeout for an empty session, in milliseconds. A value
 [**peerToPeerRequirements**](#peertopeerrequirements) | Specifies the network quality of service requirements for peer to peer mesh connections. See the peer to peer requirements section below. |n/a | n/a
 [**peerToHostRequirements**](#peertohostrequirements) | Specifies the network quality of service requirements for peer to host connections. See the peer to host requirements section below. | n/a | n/a
 [**measurementServerAddresses**](#measurementserveraddresses) | Specifies a collection of potential datacenters that are used to determine QoS measurements. See the measurementServerAddresses section below. | n/a | n/a
-[**cloudComputePackage**](#cloudcomputepackage) | ? | n/a | n/a
-[**arbitration**](#arbitration) | Specifies the timeouts for members to submit arbitration results in tournaments. See the cloudComputePackage section below. | n/a | n/a
+[**cloudComputePackage** (deprecated)](#cloudcomputepackage) | Specifies the properties of the Xbox Live Compute cloud package to allocate. | n/a | n/a
+[**arbitration** (deprecated)](#arbitration) | Specifies the timeouts for members to submit arbitration results in tournaments. See the cloudComputePackage section below. | n/a | n/a
 [**broadcastViewerTitleIds**](#broadcastviewertitleids) | Specifies a list of title IDs that should always have read access to the session. See the broadcastViewerTitleIds section below. | n/a | n/a
 [**ownershipPolicies**](#ownershippolicies) | Specifies the policies relating to session ownership. See the OwnershipPolicies section below. | n/a | n/a
 
@@ -51,10 +53,10 @@ suppressPresenceActivityCheck | If true, turns off presence checks. | true, fals
 gameplay | Indicates whether the session represents actual gameplay, as opposed to setup/menu time like a lobby or matchmaking. If true, then the session is in gameplay mode. | true, false | false
 large | Indicates if the session is a large session (more than 100 members). Large sessions are not supported for use with multiplayer manager. | true, false | false
 connectionRequiredForActiveMembers | Indicates if a connection is required in order for a member be active. | true, false | false
-cloudCompute | Enables clients to request that a cloud compute instance be allocated on behalf of the session. | true, false | false
+cloudCompute (deprecated since Xbox Live Compute is no longer available as a service) | Enables clients to request that a cloud compute instance be allocated on behalf of the session. | true, false | false
 autoPopulateServerCandidates | Automatically calculate and set 'serverConnectionStringCandidates' from 'serverMeasurements'. This capability can't be set on large sessions. | true, false | false
 userAuthorizationStyle | Indicates if the session supports calls from platforms without strong title identity. This capability can't be set on large sessions.</br></br>Setting the `userAuthorizationStyle` capability to `true` defaults the `readRestriction` and `joinRestriction`of the session to `local` instead of `none`. This means that titles must use search handles or transfer handles to join a game session.| true, false | false
-crossplay | Indicates that the session supports cross play between PC and Xbox One devices. | true, false | false
+crossplay | Indicates that the session supports cross play between PC and Xbox One (or later) devices. | true, false | false
 broadcast | Indicates that the session represents a broadcast. The name of the session must be the xuid of the broadcaster. Requires the "large" capability. | true, false | false
 team | Indicates that the session represents a tournament team. This capability can't be set on 'large' or 'gameplay' sessions. | true, false | false
 arbitration | Indicates that the session must be created by a service principal that adds the 'arbitration' server entry. Can't be set on 'large' sessions, but requires 'gameplay'. | true, false | false
@@ -70,7 +72,6 @@ Example:
     "gameplay": true,
     "large": true,
     "connectionRequiredForActiveMembers": true,
-    "cloudCompute": true,
     "autoPopulateServerCandidates": true,
     "userAuthorizationStyle": true,
     "crossPlay": true,  
@@ -204,10 +205,12 @@ Example:
 },
 ```
 
+<a id="cloudComputePackage"></a>
 
-## cloudComputePackage
+## cloudComputePackage (deprecated)
 
-Specifies the properties of the cloud compute package to allocate.
+Specifies the properties of the Xbox Live Compute cloud package to allocate. Since Xbox Live Compute service is no longer available and has been discontinued, this object is now deprecated. 
+
 Requires that the `cloudCompute` capability is set.
 
 cloud compute property | Description
@@ -225,8 +228,11 @@ Example:
 },
 ```
 
+<a id="arbitration"></a>
 
-## arbitration
+## arbitration (deprecated)
+
+Since Xbox Live Compute service is no longer available and has been discontinued, this object is now deprecated.
 
 Specifies the timeouts for the arbitration process.
 Requires that the `arbitration` capability is set.

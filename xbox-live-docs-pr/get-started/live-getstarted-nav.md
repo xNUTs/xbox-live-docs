@@ -1,179 +1,36 @@
 ---
-title: Getting Started 
+title: Getting Started
 description: Join a developer program, create a game at Partner Center, add the Xbox Live SDK to your IDE, and write basic sign-in code.
+kindex: Getting Started
+ms.topic: navigation
 layout: LandingPage
+ms.localizationpriority: high
 author: mikehoffms
 ms.author: v-mihof
-ms.date: 12/11/2018
-ms.topic: article
-keywords: windows 10, uwp, games, xbox, xbox live
-ms.localizationpriority: medium
+ms.date: 11/01/2019
 ---
 
-<h1>Getting Started</h1>
+# Getting Started
 
-<ul class="cardsF panelContent cols cols2">
-    <li>
-        <a href="live-xbl-overview.md">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_overview.svg" alt="What is Xbox Live?"/>
-                            </div>
-                        </div>
-                        <div class="cardText"> 
-                            <h3>Xbox Live overview</h3>
-                            <p>Xbox Live provides the greatest player community for your game on the most advanced cross-platform multiplayer network.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-</ul>
-
-<p>To get started adding Xbox Live functionality to your game, do the following steps in order.</p>
-
-<ul class="cardsF panelContent cols cols2">
-    <li>
-        <a href="join-dev-program/live-join-dev-program-nav.md">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_subscription.svg" alt="Joining a developer program"/>
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>1. Joining a developer program</h3>
-                            <p>Joining the Creators Program or the ID@Xbox Program.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-    <li>
-        <a href="setup-partner-center/live-setup-partner-center-nav.md">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_form.svg" alt="Setting up a game at Partner Center"/>
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>2. Setting up a game at Partner Center</h3>
-                            <p>Creating a new game at Partner Center, enabling Xbox Live for the game, and publishing the game to a development sandbox.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-    <li>
-        <a href="setup-ide/live-setup-ide-nav.md">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_download-install.svg" alt="Setting up an IDE to use Xbox Live"/>
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>3. Setting up an IDE to use Xbox Live</h3>
-                            <p>Setting up an IDE to use the Xbox Live SDK, for your target platforms.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-    <li>
-        <a href="add-signin-code/live-add-signin-code-nav.md">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_account-management.svg" alt="Adding basic sign-in code"/>
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>4. Adding basic sign-in code</h3>
-                            <p>Adding code to your game to enable basic sign-in to Xbox Live.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-</ul>
+To get started adding Xbox Live functionality to your game, do steps 1 through 4 below, in order.
 
 
-<h3>Next Steps</h3>
+### In this section
 
-<ul class="cardsF panelContent cols cols2">
-    <li>
-        <a href="../features/live-features-nav.md">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_drivers.svg" alt="Features"/>
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Features</h3>
-                            <p>Adding Xbox Live features to your game, such as Identity, Social features, Achievements, Cloud Storage, and Multiplayer features; and using Xbox Live with your own custom services.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-    <li>
-        <a href="../test-release/live-test-release-nav.md">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_test.svg" alt="Testing and Releasing"/>
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Testing and Releasing</h3>
-                            <p>Testing, troubleshooting, and publishing a game.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-    <li>
-        <a href="../api-ref/live-samples.md">
-            <div class="cardSize">
-                <div class="cardPadding">
-                    <div class="card">
-                        <div class="cardImageOuter">
-                            <div class="cardImage">
-                                <img src="https://docs.microsoft.com/media/common/i_download-generic.svg" alt="Xbox Live Samples"/>
-                            </div>
-                        </div>
-                        <div class="cardText">
-                            <h3>Xbox Live Samples</h3>
-                            <p>Xbox Live API samples and Xbox Developer Kit samples.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </a>
-    </li>
-</ul>
+|     |     |
+| --- | --- |
+| [Xbox Live overview](live-xbl-overview.md) | Xbox Live provides the greatest player community for your game on the most advanced cross-platform multiplayer network. |
+| [1. Joining a developer program](join-dev-program/live-join-dev-program-nav.md) | Joining the Creators Program or the ID@Xbox Program. |
+| [2. Setting up a game app at Partner Center](setup-partner-center/live-setup-partner-center-nav.md) | Creating a new game at Partner Center, enabling Xbox Live for the game, and publishing the game to a development sandbox. |
+| [3. Setting up an IDE](setup-ide/live-setup-ide-nav.md) | Setting up an IDE to use the Xbox Live SDK, for your target platforms. |
+| [4. Initializing the Xbox Live API](add-signin-code/live-add-signin-code-nav.md) | Adding basic sign-in code to sign-in the user and game into Xbox Live services. |
+| [What's New](whats-new/live-whats-new-nav.md) | What's New in each release of Xbox Live. |
+
+
+### See also
+
+|     |     |
+| --- | --- |
+| [Features](../features/live-features-nav.md) | Adding Xbox Live features to your game, such as Identity, Social features, Achievements, Cloud Storage, and Multiplayer features; and using Xbox Live with your own custom services. |
+| [Testing and Releasing](../test-release/live-test-release-nav.md) | Testing, troubleshooting, and publishing a game. |
+| [Xbox Live samples](../features/general/samples/live-samples.md) | Xbox Live API samples and Xbox Developer Kit samples. |

@@ -1,11 +1,11 @@
 ---
 title: Data Type Overview
 description: Data Type Overview.
+kindex: Data Type Overview
 assetID: c154a6fa-e7b2-4652-f6fc-f946f74480e9
 permalink: en-us/docs/xboxlive/rest/datatypeoverview.html
 ms.date: 10/12/2017
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one
 ms.localizationpriority: medium
 ---
 # Data Type Overview
@@ -21,7 +21,7 @@ These articles provide an overview of those types.
 | setting| One of the title-specific settings in a UserSettings object.| 
 | UserClaims| A simple JSON object containing the user's XUID and gamertag.| 
 | UserSettings| A JSON object containing a collection of title-specific settings or preferences for the current authenticated user. UserSettings can contain arbitrary data, possibly related to in-game activity.| 
-| XUID| The user's Xbox User ID, a unique unsigned long integer. Not meant to be human-readable.| 
+| XUID| The user's Xbox User ID, a unique unsigned long long integer. Not meant to be human-readable.| 
 
 
 <a id="ID4E6D"></a>

@@ -1,19 +1,20 @@
 ---
-title: Reputation how-to's
+title: Reputation example code
 description: Example code for Reputation.
-layout: LandingPage
-author: mikehoffms
-ms.author: v-mihof
-ms.date: 01/09/2020
+kindex: Reputation example code
 ms.topic: navigation
-ms.localizationpriority: medium
+layout: LandingPage
+ms.localizationpriority: high
+author: mlamaute
+ms.author: migreen
+ms.date: 11/01/2019
 ---
 
-# Reputation how-to's
+# Reputation example code
 
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Submitting Reputation feedback](live-submitting-reputation-feedback.md) | Example code for submitting Reputation feedback. |

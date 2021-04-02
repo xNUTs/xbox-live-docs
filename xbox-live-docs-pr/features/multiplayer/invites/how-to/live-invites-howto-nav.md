@@ -1,22 +1,21 @@
 ---
-title: Invites how-to's
+title: Invites example code
 description: Example code for Multiplayer Invites.
+kindex: Invites example code
+ms.topic: navigation
 layout: LandingPage
-kindex: Invites how-to's
+ms.localizationpriority: high
 author: mikehoffms
 ms.author: v-mihof
-ms.topic: navigation
-ms.prod: gaming
-ms.technology: xboxlive
-edited: 12/18/2019
+ms.date: 11/01/2019
 ---
 
-# Invites how-to's
+# Invites example code
 
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Sending invites](live-invites-send.md) | Example code for sending multiplayer invites. |
 | [Receiving invites](live-invites-receive.md) | Example code to receive multiplayer invites. |

@@ -1,10 +1,12 @@
 ---
 title: Features supported for each developer program
 description: Table of Xbox Live features supported for Creators and for Managed Partners.
+kindex: 
+- Features supported for each developer program
+- developer programs
+ms.topic: conceptual
+ms.localizationpriority: high
 ms.date: 04/11/2019
-ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, developer program
-ms.localizationpriority: medium
 ---
 
 # Features supported for each developer program
@@ -100,13 +102,13 @@ The following Xbox Live features are supported for Creators or for Managed Partn
 </tr>
 <tr>
 <td>Recently Played</td>
-<td>Appear in recently played titles in the Xbox App or Xbox One.</td>
+<td>Appear in recently played titles in the Xbox App or Xbox One (or later) console.</td>
 <td class="xbl-features-automatic">Automatic</td>
 <td class="xbl-features-automatic">Automatic</td>
 </tr>
 <tr>
 <td>Activity Feed</td>
-<td>Appear in the activity feed in the Xbox App or Xbox One.</td>
+<td>Appear in the activity feed in the Xbox App or Xbox One (or later) console.</td>
 <td class="xbl-features-automatic">Automatic</td>
 <td class="xbl-features-automatic">Automatic</td>
 </tr>
@@ -118,7 +120,7 @@ The following Xbox Live features are supported for Creators or for Managed Partn
 </tr>
 <tr>
 <td>Clubs</td>
-<td>Players can use the Xbox App or Xbox One to create clubs that can be optionally associated with your title.</td>
+<td>Players can use the Xbox App or Xbox One (or later) console to create clubs that can be optionally associated with your title.</td>
 <td class="xbl-features-automatic">Automatic</td>
 <td class="xbl-features-automatic">Automatic</td>
 </tr>
@@ -136,7 +138,7 @@ The following Xbox Live features are supported for Creators or for Managed Partn
 </tr>
 <tr>
 <td>Broadcast</td>
-<td>Players can live broadcast their gameplay via streaming services like Mixer and Twitch.</td>
+<td>Players can live broadcast their gameplay via streaming services like Twitch.</td>
 <td class="xbl-features-automatic">Automatic</td>
 <td class="xbl-features-automatic">Automatic</td>
 </tr>
@@ -153,7 +155,14 @@ The following Xbox Live features are supported for Creators or for Managed Partn
 <td>Multiplayer Session Directory (MPSD)</td>
 <td>Stores information about a multiplayer session, such as list of players and their state.</td>
 <td class="xbl-features-notavailable">Not Supported</td>
-<td class="xbl-features-optional">Required</td>
+<td class="xbl-features-optional">Optional</td>
+</tr>
+<tr>
+<td>Multiplayer Activity (MPA)</td>
+<td>Simplifies platform integration for player activities (joins), invites, and recent players, and allows players to launch into your game from their social graph.
+If it's a multiplayer game, Managed Partners must use either MPSD or MPA.</td>
+<td class="xbl-features-notavailable">Not Supported</td>
+<td class="xbl-features-optional">Optional</td>
 </tr>
 <tr>
 <td>SmartMatch matchmaking</td>
@@ -168,23 +177,13 @@ The following Xbox Live features are supported for Creators or for Managed Partn
 <td class="xbl-features-optional">Optional</td>
 </tr>
 <tr>
-<td>Arena</td>
-<td>Players can compete against each other tournament style.</td>
-<td class="xbl-features-notavailable">Not Supported</td>
-<td class="xbl-features-optional">Optional</td>
-</tr>
-<tr>
-<td>Xbox Live Compute</td>
-<td>Deploy executables and assets which your title can communicate with, to offload computation from the client.</td>
-<td class="xbl-features-notavailable">Not Supported</td>
-<td class="xbl-features-optional">Optional</td>
 </tr>
 
 
 <tr class="dev-program-feature-start">
 <td rowspan="2" class="dev-program-feature-name">Cloud Storage</td>
 <td>Connected Storage</td>
-<td>Roaming game saves across Xbox One Consoles and PCs.</td>
+<td>Roaming game saves across Xbox One (or later) consoles and PCs.</td>
 <td class="xbl-features-optional">Optional</td>
 <td class="xbl-features-required">Required</td>
 </tr>

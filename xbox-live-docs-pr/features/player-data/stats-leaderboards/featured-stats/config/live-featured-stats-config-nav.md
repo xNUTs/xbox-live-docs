@@ -1,13 +1,13 @@
 ---
 title: Featured Stats portal config
 description: Configuring Featured Stats at Partner Center.
-layout: LandingPage
 kindex: Featured Stats portal config
-author: v-mihof
+ms.topic: navigation
+layout: LandingPage
+ms.localizationpriority: high
+author: mikehoffms
 ms.author: v-mihof
-ms.topic: conceptual
-ms.prod: xboxlive
-ms.technology: 
+ms.date: 11/01/2019
 ---
 
 # Featured Stats portal config
@@ -15,6 +15,6 @@ ms.technology:
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Portal configuration of title-managed Featured Stats](live-featuredstats-tm-portal.md) | Configuring title-managed Featured Stats at Partner Center. |

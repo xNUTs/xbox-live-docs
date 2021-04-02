@@ -1,9 +1,9 @@
 ---
 title: Troubleshooting Xbox Live sign-in
 description: Troubleshooting issues with Xbox Live sign-in, such as correct sandbox and configuration IDs.
-ms.topic: article
 kindex: Troubleshooting Xbox Live sign-in
 kindex: sign-in
+ms.topic: article
 ms.assetid: 87b70b4c-c9c1-48ba-bdea-b922b0236da4
 ms.localizationpriority: medium
 ms.date: 04/04/2017
@@ -15,12 +15,13 @@ There are several issues that can cause difficulty signing-in.
 To minimize the chance of unexpected errors, do the steps in [Getting started using Visual Studio for UWP games](../../../get-started/setup-ide/managed-partners/vstudio-win10/live-get-started-vstudio-uwp.md).
 
 
-## Common Issues
+## Common issues
 
 
-### Sandbox Problems
+### Sandbox problems
 
-You should familiarize yourself with the concept of [Sandboxes](../../../test-release/sandboxes/live-sandboxes-nav.md) and how they pertain to Xbox Live.
+You should familiarize yourself with the concept of sandboxes and how they pertain to Xbox Live.
+See [Xbox Live Sandboxes overview](../../../test-release/sandboxes/live-setup-sandbox.md).
 
 Sandboxes enforce content isolation and access control before retail release.
 Users without access to your development sandbox cannot perform any read or write operations that pertain to your title.
@@ -44,7 +45,7 @@ The test accounts you create in Partner Center inherit the permissions of the Pa
 #### Your device is not on the correct sandbox
 
 The device you are developing on must be set to a development sandbox.
-On Xbox One, you can set your sandbox using *Xbox One Manager*.
+On Xbox One (or later), you can set your sandbox using *Xbox One Manager*.
 
 For Windows 10 Desktop, you can use the `SwitchSandbox.cmd` script that's located in the `Tools` directory of the Xbox Live SDK installation.
 
@@ -108,8 +109,8 @@ The error codes appear as follows:
 
    ![pfx file in Solution Explorer](../../../images/troubleshooting/pfx_file.png)
 
-   If you didn’t sign-in to Visual Studio with the Microsoft Account used for provisioning the app in Partner Center, Visual Studio will auto generate a signing pfx file based on your personal Microsoft Account or your domain account.
-   When building the appx package, Visual Studio will use that auto-generated pfx to sign the package & alter the “publisher” part of the package identity in the `package.appxmanifest`.
+   If you didn't sign-in to Visual Studio with the Microsoft Account used for provisioning the app in Partner Center, Visual Studio will auto generate a signing pfx file based on your personal Microsoft Account or your domain account.
+   When building the appx package, Visual Studio will use that auto-generated pfx to sign the package & alter the "publisher" part of the package identity in the `package.appxmanifest`.
    As a result, the produced bits (specifically, the `appxmanifest.xml`) will have a different package identity than what you intend to use.
 
 2. Double-check that your `package.appxmanifest` is set to the same application identity as your title in Partner Center.

@@ -1,10 +1,12 @@
 ---
 title: Setting up Xcode targeting iOS
 description: Setting up Xcode targeting iOS to use the Xbox Live SDK, for Managed Partners.
-ms.date: 04/19/2019
+kindex: Setting up Xcode targeting iOS
+kindex: Xcode
+kindex: iOS
 ms.topic: article
-keywords: xbox live, games, xcode, ios
-ms.localizationpriority: medium
+ms.localizationpriority: high
+ms.date: 04/19/2019
 ---
 
 # Setting up Xcode targeting iOS
@@ -211,4 +213,4 @@ Objective-C++ files enable you to mix Objective-C and C++ code:
 
 ## Next step
 
-Add basic sign-in code; see [Getting Started](../../../live-getstarted-nav.md).
+Initialize the Xbox Live API in your project; see [Initializing the Xbox Live API](../../../add-signin-code/live-add-signin-code-nav.md).

@@ -1,15 +1,14 @@
 ---
 title: XIM concepts
 description: Conceptual articles about Xbox Integrated Multiplayer.
+kindex: XIM concepts
+kindex: Xbox Integrated Multiplayer
+ms.topic: navigation
 layout: LandingPage
+ms.localizationpriority: high
 author: mikehoffms
 ms.author: v-mihof
-ms.date: 12/06/2018
-ms.topic: navigation
-ms.prod: gaming
-ms.technology: xboxlive
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, xbox integrated multiplayer
-ms.localizationpriority: medium
+ms.date: 11/01/2019
 ---
 
 # XIM concepts
@@ -17,7 +16,7 @@ ms.localizationpriority: medium
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Configuring a XIM project in a manifest](live-xim-manifest.md) | Configuring your UWP app manifests to work with Xbox Integrated Multiplayer (XIM). |
 | [XIM release notes](live-xim-release-notes.md) | Release notes about Xbox Integrated Multiplayer. |

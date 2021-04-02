@@ -2,15 +2,12 @@
 title: Uploading a blob to Title Storage
 description: Example code for uploading a blob to Title Storage.
 kindex: Uploading a blob to Title Storage
+ms.topic: conceptual
+ms.assetid: f424aca1-e671-4e31-84c6-098fda4a9558
+ms.localizationpriority: high
 author: heba
 ms.author: heba
-ms.topic: conceptual
-ms.prod: xbox
-ms.technology: xboxgc
-ms.assetid: f424aca1-e671-4e31-84c6-098fda4a9558
 ms.date: 11/15/2019
-ms.localizationpriority: medium
-edited: 00/00/0000
 ---
 
 # Uploading a blob to Title Storage
@@ -63,7 +60,7 @@ if (SUCCEEDED(hr))
 }
 ```
 
-<!-- In .Chm only:
+<!--
 **Reference**
 * [XAsyncBlock](xasyncblock.md)
 * [XblTitleStorageBlobMetadata](xbltitlestorageblobmetadata.md)

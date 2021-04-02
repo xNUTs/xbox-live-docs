@@ -2,12 +2,13 @@
 title: Signing-in using XAL
 description: Sign-in scenarios for XAL are soft single-user authentication, hard single-user authentication, and multi-user authentication.
 kindex: Signing-in using XAL
+kindex: authentication
+kindex: sign-in
 author: aablackm
 ms.author: aablackm
-ms.date: 08/30/2018
 ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, authentication, sign-in
 ms.localizationpriority: medium
+ms.date: 08/30/2018
 ---
 
 # Signing-in using XAL
@@ -77,7 +78,7 @@ XAL has two sign-in functions:
 * `XalTryAddDefaultUserSilentlyAsync()` - Attempts to add a user without showing any UI.
 * `XalAddUserWithUiAsync()` - Attempts to add a user and will always show UI.
 
-Both of these functions follow the C API calling pattern, which you should familiarize yourself with; see [Making async calls in the XSAPI C API](../../../../api-ref/xsapi/live-flatc-async-patterns.md).
+Both of these functions follow the C API calling pattern, which you should familiarize yourself with; see [Making async calls in the XSAPI C API](../../../../api-ref/xasync/live-flatc-async-patterns.md).
 
 You will need to set up an `XAsyncBlock` which calls the appropriate result function, `XalTryAddDefaultUserSilentlyResult()` or `XalAddUserWithUiResult()`, in its return function before calling the sign-in function.
 You will also need to have set up an `XTaskQueueHandle` to handle the asynchronous work, or pass null if you do not wish to control the threading model.

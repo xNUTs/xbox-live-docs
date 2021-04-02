@@ -1,7 +1,7 @@
 ---
-title: Connected Storage how-to's
+title: Connected Storage example code
 description: Example code for Connected Storage.
-kindex: Connected Storage how-to's
+kindex: Connected Storage example code
 kindex: Xbox Live Connected Storage
 kindex: Connected Storage, Xbox Live
 kindex: Storage, Connected Storage
@@ -10,15 +10,17 @@ ms.author: v-mihof
 ms.topic: conceptual
 ms.prod: gaming
 ms.technology: xboxlive
-edited: 01/16/2020
+ms.localizationpriority: high
+ms.date: 11/01/2019
 ---
 
-# Connected Storage how-to's
+# Connected Storage example code
+
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Saving data with Connected Storage](live-connected-storage-saving.md) | Code examples using Connected Storage to save gameplay data. |
 | [Loading data with Connected Storage](live-connected-storage-loading.md) | Code examples using Connected Storage to save gameplay data. |
 | [Deleting data with Connected Storage](live-connected-storage-deleting.md) | Code examples using Connected Storage to delete blob data and container data. |

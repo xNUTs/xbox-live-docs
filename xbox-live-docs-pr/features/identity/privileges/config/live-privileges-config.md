@@ -1,16 +1,19 @@
 ---
 title: Configuring Privileges in Partner Center
 description: Configuring privileges in Partner Center.
+kindex: 
+- Configuring Privileges in Partner Center
+- privileges
+- Partner Center
 ms.author: aablackm
-ms.date: 04/09/2018
 ms.topic: article
 ms.localizationpriority: medium
-keywords: Xbox Live, Xbox, games, uwp, windows 10, Xbox one, privileges, Partner Center
+ms.date: 04/09/2018
 ---
 
 # Configuring Privileges in Partner Center
 
-The Privileges configuration page dictates whether or not gamers will be restricted from streaming your title to streaming services such as [Mixer](https://mixer.com/).
+The Privileges configuration page dictates whether or not gamers will be restricted from streaming your title to streaming services.
 By default, your game will not restrict broadcasting on any streaming platform; changes to this page are only required if you would like to restrict broadcasting.
 
 You can restrict broadcasting in two ways:

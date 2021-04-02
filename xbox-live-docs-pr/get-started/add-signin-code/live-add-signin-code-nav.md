@@ -1,22 +1,22 @@
 ---
-title: Adding basic sign-in code
+title: Initializing the Xbox Live API
 description: Adding basic sign-in code to sign-in the user and game into Xbox Live services.
+kindex: Initializing the Xbox Live API
+ms.topic: navigation
 layout: LandingPage
-author: mikehoffms
-ms.author: v-mihof
-ms.date: 04/09/2019
-ms.topic: article
-keywords: windows 10, uwp, games, xbox, xbox live
-ms.localizationpriority: medium
+ms.localizationpriority: high
+author: mlamaute
+ms.author: migreen
+ms.date: 11/01/2019
 ---
 
-# Adding basic sign-in code
+# Initializing the Xbox Live API
 
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Adding basic sign-in code for mobile](live-getting-xsapi-to-sign-in.md) | Adding code to a mobile game to enable basic sign-in to Xbox Live. |
 
 <!-- 
@@ -27,4 +27,5 @@ ms.localizationpriority: medium
 
 ### See also
 
-[Getting Started](../live-getstarted-nav.md)
+* [Getting Started](../live-getstarted-nav.md)
+* [Authentication and sign-in](../../features/identity/auth/live-authentication-nav.md)

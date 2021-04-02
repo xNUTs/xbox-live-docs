@@ -3,13 +3,13 @@ title: Updating a user's Presence via XSAPI C
 description: Example code for setting a user's online Presence status.
 kindex: Updating a user's Presence via XSAPI C
 kindex: Presence
+ms.topic: conceptual
+ms.localizationpriority: high
 author: jeffshi
 ms.author: v-mihof
-ms.topic: conceptual
-ms.localizationpriority: medium
 ms.date: 01/09/2020
-edited: 01/09/2020
 ---
+
 
 # Updating a user's Presence via XSAPI C
 
@@ -43,12 +43,10 @@ if (SUCCEEDED(hr))
 }
 ```
 
-<!--
-**Reference**
+<!--**Reference**
 * [XAsyncBlock](xasyncblock.md)
 * [XAsyncGetStatus](xasyncgetstatus.md)
-* [XblPresenceSetPresenceAsync](xblpresencesetpresenceasync.md)
--->
+* [XblPresenceSetPresenceAsync](xblpresencesetpresenceasync.md)-->
 
 
 <!-- ### Updating basic Presence status -->
@@ -77,8 +75,6 @@ ids.presenceTokenIdsCount = tokenIds.size();
 HRESULT hr = XblPresenceSetPresenceAsync(xboxLiveContext, true, &ids, asyncBlock.get());
 ```
 
-<!--
-**Reference**
+<!--**Reference**
 * [XblPresenceRichPresenceIds](xblpresencerichpresenceids.md)
-* [XblPresenceSetPresenceAsync](xblpresencesetpresenceasync.md)
--->
+* [XblPresenceSetPresenceAsync](xblpresencesetpresenceasync.md)-->

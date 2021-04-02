@@ -1,11 +1,14 @@
 ---
 title: XAL reference
 description: Xbox Authentication Library (XAL) reference.
+kindex: XAL reference
+kindex: Xbox Authentication Library (XAL) reference
+ms.topic: navigation
 layout: LandingPage
-ms.date: 05/09/2019
-ms.topic: article
-keywords: games, xbox live, xbox, xal
-ms.localizationpriority: medium
+ms.localizationpriority: high
+author: mlamaute
+ms.author: migreen
+ms.date: 11/01/2019
 ---
 
 # XAL reference
@@ -19,8 +22,8 @@ XAL provides a consistent API and user model across all platforms.
 
 <!-- ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [__](__) | __ |
 | [__](__) | __ |
 | [__](__) | __ | -->
@@ -28,4 +31,4 @@ XAL provides a consistent API and user model across all platforms.
 
 ### See also
 
-[Authentication and sign-in](../../features/identity/auth/live-authentication-nav.md) - Signing-in an Xbox Live user in your game.
+* [Xbox Authentication Library (XAL) overview](../../features/identity/auth/auth-mobile-xal/live-xal-overview.md)

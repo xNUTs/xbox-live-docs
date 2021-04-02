@@ -1,11 +1,13 @@
 ---
 title: Visual Studio targeting Xbox
 description: Setting up Visual Studio targeting Xbox to use the Xbox Live SDK, for Managed Partners.
+kindex: Visual Studio targeting Xbox
+ms.topic: navigation
 layout: LandingPage
-ms.date: 02/08/2019
-ms.topic: article
-keywords: xbox live, games
-ms.localizationpriority: medium
+ms.localizationpriority: high
+author: mlamaute
+ms.author: migreen
+ms.date: 11/01/2019
 ---
 
 # Visual Studio targeting Xbox
@@ -15,8 +17,8 @@ Setting up Visual Studio targeting Xbox to use the Xbox Live SDK, for Managed Pa
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Getting the XDK](live-where-to-get-xdk.md) | Obtaining the Xbox Developer Kit (XDK). |
 | [Configuring an Xbox development console](live-configure-dev-console.md) | Configuring your Xbox development console to support Xbox Live development. |
 | [Add Xbox Live to an XDK project](live-add-xbl-xdk-project.md) | Adding Xbox Live to a new or existing Xbox Developer Kit (XDK) project. |

@@ -2,14 +2,13 @@
 title: Getting quota info for a Title Storage service configuration
 description: Example code for getting quota info for a Title Storage service configuration.
 kindex: Getting quota info for a Title Storage service configuration
+ms.topic: conceptual
+ms.prod: gaming
+ms.technology: xboxlive
+ms.localizationpriority: high
 author: heba
 ms.author: heba
-ms.topic: conceptual
-ms.prod: xbox
-ms.technology: xboxgc
 ms.date: 11/15/2019
-ms.localizationpriority: medium
-edited: 11/15/2019
 ---
 
 # Getting quota info for a Title Storage service configuration
@@ -47,7 +46,7 @@ if (SUCCEEDED(hr))
 }
 ```
 
-<!-- In .Chm only:
+<!--
 **Reference**
 * [XAsyncBlock](xasyncblock.md)
 * [XblTitleStorageGetQuotaAsync](xbltitlestoragegetquotaasync.md)

@@ -1,12 +1,14 @@
 ---
 title: Legacy articles about Partner Center setup
 description: Older articles about Partner Center setup.
+kindex: Legacy articles about Partner Center setup
+kindex: test accounts
+ms.topic: navigation
 layout: LandingPage
-author: mikehoffms
-ms.date: 01/24/2019
-ms.topic: article
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, test account
-ms.localizationpriority: medium
+ms.localizationpriority: high
+author: mlamaute
+ms.author: migreen
+ms.date: 11/01/2019
 ---
 
 # Legacy articles about Partner Center setup
@@ -14,8 +16,8 @@ ms.localizationpriority: medium
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Getting started with Xbox Live, for Creators](live-get-started-creators.md) | All the high-level steps, from joining the Creators Program, through releasing your game. |
 | [Creating a game and publishing it for testing, for Creators](live-create-and-test-creators-title.md) | Creating a new Creators game in Partner Center, and publishing it to the test environment. |
 | [Authorizing test accounts, for Creators](live-authorize-xbox-live-accounts.md) | Authorizing a public Xbox Live account for testing in your development environment. |

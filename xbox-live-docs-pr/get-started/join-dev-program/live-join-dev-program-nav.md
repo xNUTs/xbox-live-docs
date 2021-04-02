@@ -1,13 +1,13 @@
 ---
 title: Joining a developer program
 description: Joining the Creators Program or the ID@Xbox Program.
+kindex: Joining a developer program
+ms.topic: navigation
 layout: LandingPage
-author: mikehoffms
-ms.author: v-mihof
-ms.date: 04/08/2019
-ms.topic: article
-keywords: windows 10, uwp, games, xbox, xbox live
-ms.localizationpriority: medium
+ms.localizationpriority: high
+author: mlamaute
+ms.author: migreen
+ms.date: 11/01/2019
 ---
 
 # Joining a developer program
@@ -19,8 +19,8 @@ See the "Choosing" and "Features" articles below, and then do the steps in one o
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Choosing an Xbox Live developer program](live-dev-program-overview.md) | Choosing the Creators Program or the ID@Xbox Program. |
 | [Features supported for each developer program](live-feature-comparison-table.md) | Table of Xbox Live features supported for Creators and for Managed Partners. |
 | [Joining the Creators Program](live-join-creators-program.md) | Joining the Creators Program. |
@@ -29,4 +29,4 @@ See the "Choosing" and "Features" articles below, and then do the steps in one o
 
 ### See also
 
-[Getting Started](../live-getstarted-nav.md)
+* [Getting Started](../live-getstarted-nav.md)

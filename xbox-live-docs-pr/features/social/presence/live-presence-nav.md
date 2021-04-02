@@ -1,14 +1,13 @@
 ---
 title: Rich Presence
-description: Rich Presence shows what activity a user is currently doing, in which area of the game.
+description: Shows what activity a user is currently doing, in which area of the game.
+kindex: Rich Presence
+ms.topic: navigation
 layout: LandingPage
+ms.localizationpriority: high
 author: mikehoffms
 ms.author: v-mihof
-ms.date: 12/06/2018
-ms.topic: article
-ms.prod: xboxlive
-keywords: xbox live, xbox, games, uwp, windows 10, xbox one, clubs
-ms.localizationpriority: medium
+ms.date: 11/01/2019
 ---
 
 # Rich Presence
@@ -19,9 +18,9 @@ If you write code to use *Rich Presence*, the Rich Presence string also indicate
 
 ### In this section
 
-| Article | Description |
-|---------|-------------|
+|     |     |
+| --- | --- |
 | [Rich Presence overview](live-presence-overview.md) | Rich Presence shows what activity a user is currently doing, in which area of the game. |
 | [Rich Presence concepts](concepts/live-presence-concepts-nav.md) | Concepts about Rich Presence strings. |
 | [Rich Presence portal config](config/live-presence-config-nav.md) | Configuring Rich Presence strings at Partner Center. |
-| [Rich Presence how-to's](how-to/live-presence-howto-nav.md) | Example code for Rich Presence strings. |
+| [Rich Presence example code](how-to/live-presence-howto-nav.md) | Example code for Rich Presence strings. |
